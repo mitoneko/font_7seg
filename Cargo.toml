@@ -1,6 +1,6 @@
 [package]
 name = "font_7seg"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["mitoneko"]
 description = "7セグメントLED風数字フォント"
