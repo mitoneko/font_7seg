@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["mitoneko"]
 description = "7セグメントLED風数字フォント"
 license = "MIT OR Apache-2.0"
-keywords = ["font", "embedded_graphics"] 
+keywords = ["font", "embedded-graphics", "embedded", "graphics"] 
 categories = ["embedded", "graphics"]
 readme = "README.md"
 
