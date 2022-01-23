@@ -362,7 +362,7 @@ impl<C: PixelColor> Font7Seg<C> {
     fn calc_point_width(&self) -> u32 {
         let left_margin: f32 = self.size.width as f32 * self.left_margin_rate;
         let p_width = (self.size.width as f32 - left_margin * 2.0) * self.point_width_rate;
-        (p_width + left_margin * 2.0).ceil() as u32
+        ((p_width + left_margin * 2.0).ceil() as u32) + 1
     }
 }
 
